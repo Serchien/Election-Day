@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ec48b7163227740962e0b3c8a2a356, type: 3}
+  m_Name: event2
+  m_EditorClassIdentifier: 
+  title: "Une ast\xE9roide se dirige vers la terre !"
+  choice1: "Faire un chant en l\u2019honeur de l\u2019ast\xE9roide."
+  choice2: "Construire plus d\u2019\xE9glise pour prier qu'il nous rate."
+  minigame: 0
+  rewardChoice1: 5
+  rewardChoice2: -12
+  sceneChoice1: miniGame1
+  sceneChoice2: miniGame1
+  visualChange1: boues
+  visualChange2: barils

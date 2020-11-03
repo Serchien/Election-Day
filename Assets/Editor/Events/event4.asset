@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ec48b7163227740962e0b3c8a2a356, type: 3}
+  m_Name: event4
+  m_EditorClassIdentifier: 
+  title: "Trop de d\xE9versement dans le fleuve !!"
+  choice1: "Enlever les bou\xE9es"
+  choice2: "enlever les barils de p\xE9trole"
+  minigame: 1
+  rewardChoice1: -5
+  rewardChoice2: 10
+  sceneChoice1: miniGame 3-1
+  sceneChoice2: miniGame 3-1
+  visualChange1: boues
+  visualChange2: barils

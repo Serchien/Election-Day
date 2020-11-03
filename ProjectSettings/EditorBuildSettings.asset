@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 3d6a12b70f8e02f44882d3ccfc4e1344
+  - enabled: 1
+    path: Assets/Scenes/CharacterSelecter.unity
+    guid: aa1a7bf1ab2a7fe45b7ee88d759b7df3
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/miniGame 1-1.unity
+    guid: b5d7f00dd0e9faa4294f471448275944
+  - enabled: 1
+    path: Assets/Scenes/miniGame 1-2.unity
+    guid: 01a5c9bcaf548b747a14cc2b3b48d3a5
+  - enabled: 1
+    path: Assets/Scenes/miniGame 2-1.unity
+    guid: e76de2977c7338b438b70c4a5358a05b
+  - enabled: 1
+    path: Assets/Scenes/miniGame 3-1.unity
+    guid: df490459e6cbb4342b62e34d462c283e
+  m_configObjects: {}

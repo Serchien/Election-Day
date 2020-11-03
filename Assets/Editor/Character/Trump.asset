@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43267374083050340b1f4ff3b2d49fd1, type: 3}
+  m_Name: Trump
+  m_EditorClassIdentifier: 
+  characterName: Trump
+  image: {fileID: 21300000, guid: 347187c630f006040bc4ff371df4fb86, type: 3}
+  promesse1: "Changer l\u2019oxyg\xE8ne actuel en CO2"
+  promesse2: "R\xE9duire l\u2019apparition du soleil pour ainsi R\xE9duire le r\xE9chauffement
+    climatique"
+  promesse3: "D\xE9truire toute plante verte... je d\xE9teste le vert."
