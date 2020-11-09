@@ -18,14 +18,20 @@ public class ButtonHandler : MonoBehaviour
 
     public bool sequencing = true;
 
+    [SerializeField] StartGame tutorial = null;
+    bool isGameStarted = false;
 
-    void Start()
+    private void Update()
     {
-        StartGame();
+        if (tutorial.canGameStart == true && isGameStarted == false)
+        {
+            StartGame();
+        }
     }
 
     void StartGame()
     {
+        isGameStarted = true;
         SequenceCreator();
     }
 

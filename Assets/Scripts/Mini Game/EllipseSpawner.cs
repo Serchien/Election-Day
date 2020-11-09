@@ -14,8 +14,17 @@ public class EllipseSpawner : MonoBehaviour
     int nbEllipseSpawn = 0;
 
 
-    // Start is called before the first frame update
-    IEnumerator Start()
+    [SerializeField] StartGame tutorial = null;
+
+
+
+    private void StartGame()
+    {
+        isGameOn = true;
+        StartCoroutine(GameOn());
+    }
+
+    private IEnumerator GameOn()
     {
         nbEllipses = nbEllipsesMax;
         canals[0].GetComponent<Canal>().SpawnEllipse();
@@ -23,7 +32,6 @@ public class EllipseSpawner : MonoBehaviour
 
 
         yield return new WaitForSeconds(2);
-        isGameOn = true;
 
         while (isGameOn)
         {
@@ -31,7 +39,7 @@ public class EllipseSpawner : MonoBehaviour
             yield return new WaitForSeconds(difficulte);
             int whatCanal = Random.Range(0, canals.Length);
 
-            if(nbEllipseSpawn != nbEllipsesMax)
+            if (nbEllipseSpawn != nbEllipsesMax)
             {
                 canals[whatCanal].GetComponent<Canal>().SpawnEllipse();
                 nbEllipseSpawn++;
@@ -39,7 +47,7 @@ public class EllipseSpawner : MonoBehaviour
             }
             //nbEllipses--;
 
-            if(nbEllipses == 0)
+            if (nbEllipses == 0)
             {
                 StopGame();
                 isGameOn = false;
@@ -47,8 +55,6 @@ public class EllipseSpawner : MonoBehaviour
             }
 
         }
-
-
     }
 
     void StopGame()
@@ -60,6 +66,9 @@ public class EllipseSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(tutorial.canGameStart == true && isGameOn == false)
+        {
+            StartGame();
+        }
     }
 }
